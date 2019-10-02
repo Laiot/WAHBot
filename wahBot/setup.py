@@ -16,10 +16,10 @@ def unknown(bot, update):
 
 
 def main():
-    ciccia = telegram.Bot(token='771479009:AAGugUnJgzBbraCDhXMtcdByHoYDTsMnxDY')
+    ciccia = telegram.Bot(token='123456789:ASDFGHJKLÒZXCVBNMQWcdByHoYDTsMnxDY') # Sample Token
     print(ciccia.get_me())
 
-    updater = Updater(token='771479009:AAGugUnJgzBbraCDhXMtcdByHoYDTsMnxDY')
+    updater = Updater(token='123456789:ASDFGHJKLÒZXCVBNMQWcdByHoYDTsMnxDY') # Sample Token
 
     dispatcher = updater.dispatcher
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
